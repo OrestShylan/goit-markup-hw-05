@@ -235,8 +235,43 @@ body {
   gap: 30px;
 }
 
+.portfolio-link {
+  position: relative;
+}
+
 .portfolio-list {
   flex-basis: calc((100% - 60px) / 30px);
+}
+
+.portfolio-list:hover .portfolio-text {
+  opacity: 1;
+}
+
+.portfolio-text {
+  position: absolute;
+  top: 37%;
+  left: 50%;
+
+  transform: translate(-50%, -50%);
+  display: flex;
+
+  opacity: 0;
+
+  width: 370px;
+  height: 294px;
+
+  padding-top: 63px;
+  padding-left: 24px;
+
+  font-family: "Roboto";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 28px;
+  letter-spacing: 0.03em;
+
+  color: #ffffff;
+  background: rgba(33, 150, 243, 0.9);
 }
 
 /* BUTTON */

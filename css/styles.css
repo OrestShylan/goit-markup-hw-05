@@ -577,15 +577,15 @@ body {
   justify-content: center;
 }
 
-.footer-link-icon:focus,
-.footer-link-icon:hover {
-  border-radius: 50%;
-  background-color: var(--accent-text-color);
-}
-
 .sub-list {
   display: flex;
   align-items: center;
   justify-content: baseline;
   gap: 10px;
+}
+
+.footer-link-icon:focus,
+.footer-link-icon:hover {
+  border-radius: 50%;
+  background-color: var(--accent-text-color);
 }
