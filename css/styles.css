@@ -386,6 +386,8 @@ body {
   display: flex;
   align-items: center;
   justify-content: center;
+  transition-property: background-color;
+  transition-duration: 250ms;
 }
 .member-soc-icon {
   fill: #afb1b8;
@@ -575,6 +577,8 @@ body {
   display: flex;
   align-items: center;
   justify-content: center;
+  transition-property: background-color;
+  transition-duration: 250ms;
 }
 
 .sub-list {
