@@ -386,7 +386,7 @@ body {
   display: flex;
   align-items: center;
   justify-content: center;
-  transition-property: background-color;
+  transition-property: background-color, color;
   transition-duration: 250ms;
 }
 .member-soc-icon {
