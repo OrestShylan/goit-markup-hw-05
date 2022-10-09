@@ -666,7 +666,7 @@ body {
   border-radius: 50%;
   background-color: transparent;
 
-  display: block;
+  display: flex;
   align-items: center;
   justify-content: center;
   padding-top: 6px;
