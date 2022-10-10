@@ -590,6 +590,7 @@ body {
 
 .footer-link-title {
   margin-bottom: 20px;
+  margin-right: 0;
 
   font-weight: 700;
   font-size: 14px;
